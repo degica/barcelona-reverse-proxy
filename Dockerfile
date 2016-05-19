@@ -1,4 +1,4 @@
-FROM nginx:1.9.11
+FROM nginx:1.10.0
 
 RUN apt-get update && \
     apt-get install -q -y ruby && \
